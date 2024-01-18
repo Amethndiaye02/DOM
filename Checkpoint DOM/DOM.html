@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DOM.css">
+    
+    <link rel="stylesheet" href="">
+    <title>Eutou Khadim Rassoul</title>
+</head>
+<body>
+   <h1>
+      Librairie CHEIKH AHMADOU BAMBA
+   </h1>
+   <div class="container">
+      <div class="article1">
+    <div class="col-4">
+        <img style="width: 350px;" src="wakana haqqan.png" alt="Xassaid">
+        <p>
+     <b style="position: relative;left: 80px;color: black;font-size: larger;">
+        Xassidas wakana Haqqan
+     </b>       
+        </p>
+        <div id="Prix">
+         <h2 style="position: relative;left: 90px;" id="prix">3000 </h2>
+        </div>
+        
+        <div style="position: relative;left: 90px;" class="boutonPlus">
+            <button  onclick="addQte()" div="boutonPlus">+</button>
+
+            <!-- Affichage de la quantité -->
+            <span style="color: black;" id="quantity">1 </span>
+
+            <!-- Bouton Moins -->
+            <button onclick="subtractQte()" class="boutonMoins">-</button>
+            <div class="heart-button" id="boutonLike">&#10084;</div>
+            <button class="delete-button">Supprimer</button>
+        </div>
+      </div>
+  <div class="Article2">     
+<div class="col-4">
+   <img style="width: 350px;position: relative; left: 430px; bottom: 470px;" src="mawahibou.png" alt="Xassaid">
+   <p style="position: relative;left: 570px;bottom: 475px;">
+      <b style="position: relative;right: 25px; color: antiquewhite;font-size: larger;">
+         Xassidas Mawahibou
+      </b>
+
+     
+   </p>
+   <div style="position: relative; bottom: 480px;" class="Boutonmoins">
+      <div>
+         <h2 style="position: relative;left: 570px ;color: antiquewhite;" id="prix">2000 </h2>
+      </div>
+      <button  onclick="addQte()" style="position: relative;left: 570px ;" class="boutonPlus">+</button>
+
+<!-- Affichage de la quantité -->
+<span style="position: relative;left: 575px;" id="quantite">1</span>
+
+<!-- Bouton Moins -->
+<button onclick="subtractQte()" style="position: relative;left: 580px ;" class="boutonmoins">-</button>
+   </div>
+   
+   
+</div>
+<div style="position: relative;left: 995px; bottom: 450px;color: antiquewhite;" class="heart-button" id="boutonLike">&#10084;</div>
+
+    </div>
+   </div> 
+   <div class="Article3">
+   <div class="col-4">
+      
+      <img style="position: relative;left: 710px;bottom: 950px;width: 700px; " src="Touhfatou.png" alt="Xassaid">
+      <p>
+         <b style="position: relative; left: 1000px;bottom: 950px; color: antiquewhite; font-size: larger;">
+            Xassidas Touhfatou
+         </b>
+      </p>
+      <div style="position: relative;left: 1000px;bottom: 955px;"  class="Boutonmoins">
+         <div class="modification">
+        <div id="Prix"><h2 style="color: antiquewhite;" class="prix">1500 </h2></div> 
+         <button onclick="addQte()"  class="boutonPlus">+</button>
+         <span   id="quantite">1</span>
+
+<!-- Bouton Moins -->
+<button onclick="subtractQte()" class="boutonmoins">-</button>
+   </div>
+</div>
+<div style="position: relative;left: 570px;bottom: 970px;color: antiquewhite;"heart-button id="boutonLike">&#10084;</div>
+<button style="position: relative;left: 530px;bottom: 970px;" class="delete-button">Supprimer</button>
+
+    </div>
+   </div>
+    <button style="position: relative;left: 960px;bottom: 970px;" class="delete-button">Supprimer</button>
+<div class="Total">
+<h5 style="position: relative;bottom: 990px;font-size: x-large;color: antiquewhite;">
+   <div class="Prix Total">
+      Prix Total= 6500
+   </div>
+  
+</h5>
+</div>
+   </div>
+<script src="DOM.js"></script>
+</body>
+</html>
